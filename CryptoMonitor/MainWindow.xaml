@@ -1,0 +1,140 @@
+﻿<Window x:Class="CryptoMonitor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CryptoMonitor"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="750" DataContext="{Binding Main, Mode=OneWay, Source={StaticResource Locator}}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250*" />
+            <ColumnDefinition Width="250*"/>
+            <ColumnDefinition Width="250*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Orientation="Vertical" Grid.Column="0">
+            <Label Content="Watt Verbrauch" HorizontalContentAlignment="Center" FontWeight="Bold" Margin="0 0 0 10"/>
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="GPU" Width="80" />
+                    <TextBox HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Text="{Binding Gpuwatt}" Width="70"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="CPU" Width="80" />
+                    <TextBox HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextWrapping="Wrap" Text="{Binding Cpuwatt}" Width="70"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Festplatten" Width="80" />
+                    <TextBox HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextWrapping="Wrap" Text="{Binding Festplattenwatt}" Width="70"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="RAM" Width="80" />
+                    <TextBox HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextWrapping="Wrap" Text="{Binding Ramwatt}" Width="70"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Lüfter" Width="80" />
+                    <TextBox HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextWrapping="Wrap" Text="{Binding Luefterwatt}" Width="70"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Monitor(e)" Width="80"/>
+                    <TextBox HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextWrapping="Wrap" Text="{Binding Monitorwatt}" Width="70"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0 5 0 0">
+                    <Label Content="PC Total:" Width="80" FontWeight="Bold"/>
+                    <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="{Binding TotalWattShow}" Width="70" FontWeight="Bold"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" Grid.Column="1">
+            <Label Content="PROFIT" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20"/>
+
+            <StackPanel Orientation="Vertical">
+                <Label Content="Tag" HorizontalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel Orientation="Vertical" Width="83">
+                        <Label Content="Profit" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+                        <Label Content="{Binding SelectedCrypto.ProfitPerDayShow}" HorizontalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" Width="83">
+                        <Label Content="Mined" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+                        <Label Content="{Binding SelectedCrypto.MinedPerDayShow}" HorizontalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" Width="83">
+                        <Label Content="Stromkosten" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+                        <Label Content="{Binding SelectedCrypto.PowerCostPerDayShow}" HorizontalContentAlignment="Center"/>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical">
+                <Label Content="Monat" HorizontalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                <StackPanel Orientation="Horizontal" >
+                    <StackPanel Orientation="Vertical" Width="83">
+                        <Label Content="Profit" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+                        <Label Content="{Binding SelectedCrypto.ProfitPerMonthShow}" HorizontalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" Width="83">
+                        <Label Content="Mined" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+                        <Label Content="{Binding SelectedCrypto.MinedPerMonthShow}" HorizontalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" Width="83">
+                        <Label Content="Stromkosten" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+                        <Label Content="{Binding SelectedCrypto.PowerCostPerMonthShow}" HorizontalContentAlignment="Center"/>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical">
+                <Label Content="Jahr" HorizontalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel Orientation="Vertical" Width="83">
+                        <Label Content="Profit" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+                        <Label Content="{Binding SelectedCrypto.ProfitPerYearShow, Mode=TwoWay}" HorizontalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" Width="83">
+                        <Label Content="Mined" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+                        <Label Content="{Binding SelectedCrypto.MinedPerYearShow}" HorizontalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" Width="83">
+                        <Label Content="Stromkosten" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+                        <Label Content="{Binding SelectedCrypto.PowerCostPerYearShow}" HorizontalContentAlignment="Center"/>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+            
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" Grid.Column="2">
+            <Label Content="Zusätzliche Informationen"  HorizontalContentAlignment="Center" FontWeight="Bold" Margin="0 0 0 10"/>
+
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Margin="0 0 5 0">
+                <StackPanel Orientation="Horizontal">
+                    <TextBox HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Text="{Binding Stromkosten}" Width="70"/>
+                    <Label Content="Stromkosten (c/kWh)" Width="125"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBox HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Text="{Binding Poolfee}" Width="70"/>
+                    <Label Content="Poolgebühr (%)" Width="125"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBox HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Text="{Binding Gpuhash}" Width="70"/>
+                    <Label Content="GPU Hashrate (MH/s)" Width="125"/>
+                </StackPanel>
+                
+                <ListView ItemsSource="{Binding ListCrypto}" Margin="0 10 0 0" SelectedItem="{Binding SelectedCrypto, Mode=TwoWay}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="{Binding Price}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="70"/>
+                                <Label Content="{Binding NameKurz}"/>
+                                <Label Content="Preis (€)" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

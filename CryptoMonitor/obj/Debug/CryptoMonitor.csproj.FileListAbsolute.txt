@@ -1,0 +1,63 @@
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\bin\Debug\CryptoMonitor.exe.config
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\bin\Debug\CryptoMonitor.exe
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\bin\Debug\CryptoMonitor.pdb
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\obj\Debug\CryptoMonitor.csprojResolveAssemblyReference.cache
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\obj\Debug\MainWindow.g.cs
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\obj\Debug\App.g.cs
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\obj\Debug\CryptoMonitor_MarkupCompile.cache
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\obj\Debug\CryptoMonitor_MarkupCompile.lref
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\obj\Debug\App.baml
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\obj\Debug\MainWindow.baml
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\obj\Debug\CryptoMonitor.g.resources
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\obj\Debug\CryptoMonitor.Properties.Resources.resources
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\obj\Debug\CryptoMonitor.csproj.GenerateResource.Cache
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\obj\Debug\CryptoMonitor.csproj.CoreCompileInputs.cache
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\obj\Debug\CryptoMonitor.exe
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\obj\Debug\CryptoMonitor.pdb
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kouchste\Work Folders\Desktop\Studium\BA\Krypto\CryptoMonitor\CryptoMonitor\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\bin\Debug\CryptoMonitor.exe.config
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\obj\Debug\CryptoMonitor.exe
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\obj\Debug\CryptoMonitor.pdb
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\bin\Debug\CryptoMonitor.exe
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\bin\Debug\CryptoMonitor.pdb
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\obj\Debug\CryptoMonitor.csprojResolveAssemblyReference.cache
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\obj\Debug\MainWindow.g.cs
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\obj\Debug\App.g.cs
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\obj\Debug\CryptoMonitor_MarkupCompile.cache
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\obj\Debug\CryptoMonitor_MarkupCompile.lref
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\obj\Debug\App.baml
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\obj\Debug\MainWindow.baml
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\obj\Debug\CryptoMonitor.g.resources
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\obj\Debug\CryptoMonitor.Properties.Resources.resources
+C:\Users\Stephan\Desktop\CryptoMonitor\CryptoMonitor\obj\Debug\CryptoMonitor.csproj.GenerateResource.Cache
