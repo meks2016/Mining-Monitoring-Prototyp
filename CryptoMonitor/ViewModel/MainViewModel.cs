@@ -151,7 +151,7 @@ namespace CryptoMonitor.ViewModel
             {
                 //Gemined = (Zeit für ein Tag / Zeit für ein Block in s) * Belohnung * (Leistung der GPU in MH/s * Umrechnung in H/s / Netzwerkhash)
                 crypto.MinedPerDay = (60 * 60 * 24 / crypto.Blocktime) * crypto.Blockreward * (Gpuhash * 1000000 / crypto.Networkhash);
-                crypto.MinedPerMonth = crypto.MinedPerDay * 60;
+                crypto.MinedPerMonth = crypto.MinedPerDay * 30;
                 crypto.MinedPerYear = crypto.MinedPerDay * 365;
                 crypto.MinedPerDayShow = crypto.MinedPerDay.ToString("N8");
                 crypto.MinedPerMonthShow = crypto.MinedPerMonth.ToString("N8");
